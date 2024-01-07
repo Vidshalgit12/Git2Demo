@@ -1,10 +1,12 @@
 
-public class Test1 {
+public class Test2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String hun="Yes";
-		if(hun=="yes" || hun=="Yes" || hun=="YES")
+		String hun="YES";
+		String ex=hun.toUpperCase();
+		System.out.println(hun.toUpperCase()+" "+ex);
+		if(ex=="YES")
 		{
 			System.out.println ("Eat Som");
 		}
